@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: #FFB8CA;
+    padding-top: 92px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 320px;
+}
