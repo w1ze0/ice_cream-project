@@ -1,30 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h1 class="hero_title">
-          ice cream
-          made with
-          <span>
-          passion
-          </span>
-        </h1>
-        <ul class="hero_button_list">
-          <li><button type="button" class="hero_button">pruducts</button></li>
-          <li><button type="button" class="hero_button">How it’s made?</button></li>
-        </ul>
-        <img src="./img/hero_ice_cream.png" alt="ice cream foto">
-      </div>
-    </section>
-  </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero_left_wrap">
+            <h1 class="hero_title">
+              ice cream made with
+              <span> passion </span>
+            </h1>
 
-</body>
+            <ul class="hero_button_list">
+              <li>
+                <button type="button" class="hero_button">Products</button>
+              </li>
+              <li>
+                <button type="button" class="hero_button accent">
+                  How it’s made?
+                </button>
+              </li>
+            </ul>
+            
+            <div class="hero_descr_wrap">
+              <img class="hero_desk_img" src="./img/milk.png" alt="milk">
+              <div>
+              <p class="hero_description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et.
+              </p>
+            
+              <a href="#products" class="hero_arrow_link">
+                <svg class="hero_arrow_icon" width="20" height="20"></svg>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="img_hero_wrap">
+          <img
+            class="img_hero_icecream"
+            src="./img/hero_ice_cream.png"
+            alt="ice cream foto"
+          />
+          </div>
+
+          <ul class="hero_stats_list">
+            <li class="hero_stats_item">
+              <span class="stats_number">16</span>
+              <span class="stats_text">cafes</span>
+            </li>
+            <li class="hero_stats_item">
+              <span class="stats_number">23</span>
+              <span class="stats_text">food trucks</span>
+            </li>
+          </ul>
+
+          <div class="hero_girl_wrap">
+            <img
+              class="img_hero_girl"
+              src="./img/hero_girl.png"
+              alt="girl with ice cream"
+            />
+          </div>
+        </div>
+      </section>
+      <section class=""></section>
+    </main>
+  </body>
 </html>

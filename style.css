@@ -1,16 +1,243 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  line-height: 1.2;
 }
 
 .hero {
-    background-color: #FFB8CA;
-    padding-top: 92px;
+  background-color: #ffb8ca;
+  padding-top: 193px;
+  padding-bottom: 160px;
+  position: relative;
 }
 
 .container {
-    margin: 0 auto;
-    padding: 0 20px;
-    width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 320px;
+}
+
+.hero_title {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.hero_title span {
+  color: #D41443;
+  font-size: 48px;
+  margin-bottom: 19px;
+  display: block;
+}
+
+.hero_button {
+  padding: 10px 20px;
+  background-color: #D41443;
+  color: #FFFFFF;
+  display: block;
+  border-radius: 20px;
+  border: 0;
+}
+
+.accent {
+  background-color: #FFFFFF;
+  color: #D41443;
+}
+
+.hero_button_list {
+  display: flex;
+  gap: 8px;
+}
+
+.hero_left_wrap {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.img_hero_icecream {
+  position: absolute;
+  z-index: 1;
+  top: 18%;
+  left: 53%;
+  display: block;
+  width: 171px;
+  height: 410px;
+  
+}
+
+.img_hero_wrap::after {
+  content: "";
+  display: block;
+  width: 346px;
+  height: 344px;
+  border-radius: 50%;
+  background-color: #FFA5BA;
+  z-index: 0;
+  position: absolute;
+  top: 16%;
+  left: 12%;
+}
+
+.hero_button:hover,
+.hero_button:focus {
+  background-color: #b00f35; 
+}
+
+.hero_button.accent:hover,
+.hero_button.accent:focus {
+  background-color: #ececec;
+}
+
+
+
+.hero_descr_wrap {
+  display: none; 
+}
+
+
+.hero_stats_list {
+  display: none; 
+}
+
+.hero_girl_wrap {
+  display: none; 
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .hero_descr_wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    width: 200px;
+  }
+
+  .hero_description {
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #FFFFFF;
+  }
+
+  .hero_stats_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 90px;
+    right: 32px;
+  }
+
+  .hero_stats_item {
+    text-align: right;
+  }
+
+  .stats_number {
+    font-family: "Titan One", sans-serif;
+    font-size: 28px;
+    color: #D41443;
+    display: block;
+  }
+
+  .stats_text {
+    font-family: "DM Sans", sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+  }
+
+  .img_hero_icecream {
+  top: 16%;
+  left: 50%;
+  width: 143px;
+  height: 336px;
+  object-fit: contain;
+}
+
+.img_hero_wrap::after {
+  width: 324px;
+  height: 322px;
+  top: 8%;
+  left: 40%;
+}
+  .hero {
+    padding-top: 102px;
+    padding-bottom: 28px;
+  }
+
+  .container {
+    width: 768px; 
+  }
+
+  .hero_title {
+    font-size: 22px;
+    width: 340px;   
+    
+  }
+
+  .hero_title span {
+    font-size: 34px;
+
+  }
+
+  .img_hero_icecream {
+    top: 30px;
+    left: 320px;
+    width: 260px; 
+  }
+
+  .hero_button {
+    font-size: 8px;
+  }
+
+  .hero_desk_img {
+    display: block;
+    width: 124px;
+    height: 122px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 160px;
+    padding-bottom: 100px;
+  }
+
+  .container {
+    width: 1200px; 
+    padding: 0 16px;
+  }
+
+  .hero_title {
+    font-size: 38px;
+    width: 370px;
+  }
+
+  .hero_title span {
+    font-size: 64px;
+  }
+
+  .img_hero_icecream {
+    top: -20px;
+    left: 450px;
+    width: auto; 
+  }
 }
