@@ -31,12 +31,11 @@ body {
   font-size: 26px;
   letter-spacing: 4%;
   text-transform: uppercase;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .hero_title span {
-  color: #D41443;
+  color: #d41443;
   font-size: 48px;
   margin-bottom: 19px;
   display: block;
@@ -44,16 +43,16 @@ body {
 
 .hero_button {
   padding: 10px 20px;
-  background-color: #D41443;
-  color: #FFFFFF;
+  background-color: #d41443;
+  color: #ffffff;
   display: block;
   border-radius: 20px;
   border: 0;
 }
 
 .accent {
-  background-color: #FFFFFF;
-  color: #D41443;
+  background-color: #ffffff;
+  color: #d41443;
 }
 
 .hero_button_list {
@@ -76,7 +75,6 @@ body {
   display: block;
   width: 171px;
   height: 410px;
-  
 }
 
 .img_hero_wrap::after {
@@ -85,7 +83,7 @@ body {
   width: 346px;
   height: 344px;
   border-radius: 50%;
-  background-color: #FFA5BA;
+  background-color: #ffa5ba;
   z-index: 0;
   position: absolute;
   top: 16%;
@@ -94,7 +92,7 @@ body {
 
 .hero_button:hover,
 .hero_button:focus {
-  background-color: #b00f35; 
+  background-color: #b00f35;
 }
 
 .hero_button.accent:hover,
@@ -102,80 +100,109 @@ body {
   background-color: #ececec;
 }
 
-
-
 .hero_descr_wrap {
-  display: none; 
+  display: none;
 }
 
-
 .hero_stats_list {
-  display: none; 
+  display: none;
 }
 
 .hero_girl_wrap {
-  display: none; 
+  display: none;
 }
 
-.natural {
-  font-weight: 400;
-  font-size: 18px;
-  color: #FFA5BA;
+.natural_products {
+  padding-top: 124px;
+  padding-bottom: 98px;
   text-align: center;
 }
 
-
-.container_ice_cream {
-  width: 280px;
-  height: 598px;
+.section-subtitle {
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffa5ba;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 400;
 }
 
-.container_natural {
+.section-title {
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+  margin-bottom: 31px;
+  color: #d41443;
+  margin-bottom: 140px;
+}
+
+.product-item {
+  width: 100%;
+  position: relative;
+}
+
+.product-list {
   display: flex;
+  gap: 140px;
   justify-content: center;
   flex-direction: column;
-  
 }
 
 .imgs_natural {
   width: 249px;
   height: 252px;
-}
-
-.about_ice_cream_natural {
-  width: 280px;
-  height: 485px;
-  background-color: #FFB8CA;
-  border-radius: 24px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  color: #FFFFFF;
+  position: absolute;
 }
 
 .title_of_ice_cream_about {
-  padding: 161px 0 30px;
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.about_ice_cream_natural {
+  background-color: #ffb8ca;
+  border-radius: 24px;
+  overflow: hidden;
+  color: #ffffff;
+  padding: 161px 40px 40px;
 }
 
 .three {
-  padding: 0 127px 30px;
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .discription_ice_cream_natural {
-  padding: 30px 39px;
+  margin-bottom: 30px;
+  font-family: "DM Sans";
+  font-size: 14px;
+  line-height: 152%;
 }
 
 .imgs_natural {
   position: absolute;
   z-index: 1;
-  top: 486px;
-  left: 32px;
+  top: -140px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .about_ice_coffe_natural {
-  background-color: #F0D1A5;
+  background-color: #f0d1a5;
 }
 
 .imgs_natural_coffe {
@@ -184,27 +211,12 @@ body {
 }
 
 .about_ice_milkshake_natural {
-  background-color: #C2E297;
+  background-color: #c2e297;
 }
 
 .imgs_natural_milkshake {
   top: 1669px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 768px) {
   .hero_descr_wrap {
@@ -219,7 +231,7 @@ body {
     font-family: "DM Sans", sans-serif;
     font-size: 12px;
     line-height: 1.4;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .hero_stats_list {
@@ -238,54 +250,52 @@ body {
   .stats_number {
     font-family: "Titan One", sans-serif;
     font-size: 28px;
-    color: #D41443;
+    color: #d41443;
     display: block;
   }
 
   .stats_text {
     font-family: "DM Sans", sans-serif;
     font-size: 10px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .img_hero_icecream {
-  top: 16%;
-  left: 50%;
-  width: 143px;
-  height: 336px;
-  object-fit: contain;
-}
+    top: 16%;
+    left: 50%;
+    width: 143px;
+    height: 336px;
+    object-fit: contain;
+  }
 
-.img_hero_wrap::after {
-  width: 324px;
-  height: 322px;
-  top: 8%;
-  left: 40%;
-}
+  .img_hero_wrap::after {
+    width: 324px;
+    height: 322px;
+    top: 8%;
+    left: 40%;
+  }
   .hero {
     padding-top: 102px;
     padding-bottom: 28px;
   }
 
   .container {
-    width: 768px; 
+    width: 768px;
   }
 
   .hero_title {
     font-size: 22px;
-    width: 340px;   
-    
+    width: 340px;
   }
 
   .hero_title span {
     font-size: 34px;
-
   }
 
   .img_hero_icecream {
     top: 30px;
     left: 320px;
-    width: 260px; 
+    width: 260px;
   }
 
   .hero_button {
@@ -297,8 +307,27 @@ body {
     width: 124px;
     height: 122px;
   }
-}
 
+  .natural_products {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .section-subtitle {
+    font-size: 26px;
+    margin-bottom: 18px;
+  }
+
+  .section-title {
+    font-size: 48px;
+    margin-bottom: 154px;
+  }
+
+  .product-list {
+    flex-direction: row;
+    gap: 16px;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .hero {
@@ -307,7 +336,7 @@ body {
   }
 
   .container {
-    width: 1200px; 
+    width: 1200px;
     padding: 0 16px;
   }
 
@@ -323,6 +352,6 @@ body {
   .img_hero_icecream {
     top: -20px;
     left: 450px;
-    width: auto; 
+    width: auto;
   }
 }
