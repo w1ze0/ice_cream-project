@@ -117,6 +117,91 @@ body {
   display: none; 
 }
 
+.natural {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFA5BA;
+  text-align: center;
+}
+
+
+.container_ice_cream {
+  width: 280px;
+  height: 598px;
+}
+
+.container_natural {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.imgs_natural {
+  width: 249px;
+  height: 252px;
+}
+
+.about_ice_cream_natural {
+  width: 280px;
+  height: 485px;
+  background-color: #FFB8CA;
+  border-radius: 24px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.title_of_ice_cream_about {
+  padding: 161px 0 30px;
+}
+
+.three {
+  padding: 0 127px 30px;
+}
+
+.discription_ice_cream_natural {
+  padding: 30px 39px;
+}
+
+.imgs_natural {
+  position: absolute;
+  z-index: 1;
+  top: 486px;
+  left: 32px;
+}
+
+.about_ice_coffe_natural {
+  background-color: #F0D1A5;
+}
+
+.imgs_natural_coffe {
+  top: 1078px;
+  left: 36px;
+}
+
+.about_ice_milkshake_natural {
+  background-color: #C2E297;
+}
+
+.imgs_natural_milkshake {
+  top: 1669px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
