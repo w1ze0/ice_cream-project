@@ -23,6 +23,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   width: 320px;
+  outline:1px solid #b00f35;
 }
 
 .hero_title {
@@ -123,6 +124,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   color: #ffa5ba;
+  text-transform: uppercase;
   text-align: center;
   margin-bottom: 15px;
   font-weight: 400;
@@ -132,6 +134,7 @@ body {
   font-family: "Titan One";
   font-weight: 400;
   font-size: 34px;
+  text-align: center;
   line-height: 100%;
   letter-spacing: 4%;
   text-transform: uppercase;
@@ -224,8 +227,18 @@ body {
 
 .maid {
   background-color: #fff5f6;
-  padding-bottom: 120px;
+  padding-bottom: 145px;
+  padding-top: 125px;
+  background-image: url("./img/made_milk_mob.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:0% 46%;
 }
+
+.maid .section-title {
+  margin-bottom: 26px;
+}
+
 
 .made-text-bold {
   font-family: "DM Sans";
@@ -253,14 +266,10 @@ body {
 }
 
 .made-discription-button {
-  border: 2px solid #d41443;
+  border: 1px solid #d41443;
   border-radius: 22px;
   background-color: #ffffff;
   color: #d41443;
-  width: 176;
-  height: 44;
-  top: 3567px;
-  left: 50px;
   opacity: 1;
   border-radius: 22px;
   padding: 8px 15px;
@@ -423,7 +432,9 @@ body {
   }
 
   .made-cow {
-    width: 30%;
+    width: 340px;
+    height: 339px;
+    margin-right: 17px;
   }
 
   .made-discription {
@@ -465,4 +476,75 @@ body {
     left: 450px;
     width: auto;
   }
+
+  .imgs_natural {
+    width: 335px;
+    height: 335px;
+    top: -235px;
+  }
+
+  .about_ice_cream_natural {
+    padding: 165px 75px 60px;
+  }
+
+  .title_of_ice_cream_about {
+    font-size: 30px;
+  }
+
+  .natural_products {
+    padding-top: 127px;
+    padding-bottom: 60px;
+  }
+
+  .discription_ice_cream_natural {
+    font-size: 16px;
+    margin-bottom: 62px;
+  }
+
+  .product-list {
+    gap: 32px;
+    margin-bottom: 258px;
+  }
+
+  .section-title {
+    margin-bottom: 258px;
+  }
+
+  .maid {
+    padding-top: 125px;
+    padding-bottom: 310px;
+  }
+
+  .section-subtitle {
+    font-size: 30px;
+  }
+
+  .maid .section-title {
+    margin-bottom: 60px;
+  }
+
+  .made-cow {
+    width: 501px;
+    height: 501px;
+    margin-right: 139px;
+  }
+
+  .made-discription {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .made-list{
+    max-width: 1050px;
+    gap: 30px;
+    font-size: 16px;
+  }
+
+  .made-item {
+    max-width: 288px;
+  }
+
+
 }
