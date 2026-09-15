@@ -23,7 +23,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   width: 320px;
-  outline:1px solid #b00f35;
+  outline: 1px solid #b00f35;
 }
 
 .hero_title {
@@ -232,13 +232,12 @@ body {
   background-image: url("./img/made_milk_mob.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position:0% 46%;
+  background-position: 0% 46%;
 }
 
 .maid .section-title {
   margin-bottom: 26px;
 }
-
 
 .made-text-bold {
   font-family: "DM Sans";
@@ -247,13 +246,11 @@ body {
   line-height: 162%;
   letter-spacing: 0%;
   margin: 50px auto;
-  
 }
 
 .made-img-milk {
   display: none;
 }
-
 
 .made-text-normal {
   font-family: "DM Sans";
@@ -283,7 +280,7 @@ body {
   line-height: 100%;
   letter-spacing: 4%;
   text-transform: uppercase;
-  color: #D41443;
+  color: #d41443;
   margin-bottom: 40px;
 }
 
@@ -296,13 +293,96 @@ body {
   margin-bottom: 50px;
 }
 
+.section-places {
+  
+  margin: auto 50px;
+  
+}
 
+.cafe-place {
+  width: 80px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: #f0d1a5;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  letter-spacing: 4%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+}
 
+.container-date {
+  margin: 25px auto;
+}
 
+.city-place {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  letter-spacing: 4%;
+}
 
+.about-place {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #907e82;
+  margin-bottom: 25px;
+}
 
+.days {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  letter-spacing: 0%;
+}
 
+.hours-date {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  letter-spacing: 0%;
+  color: #ffa5ba;
+}
 
+.contacts {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #907E82;
+}
+
+.num-phone {
+  margin-top: 25px;
+}
+
+.foodtruck {
+  background-color: #C2E297;
+}
+
+.place {
+  width: 220;
+  height: 427;
+  border: 1px solid #e1e1e1;
+  border-radius: 24px;
+  box-shadow: 0px 8px 30px 0px #d414431a;
+  padding-left: 20px;
+  padding-bottom: 43px;
+  padding-top: 43px;
+  margin-top: 20px;
+}
 
 
 
@@ -440,15 +520,6 @@ body {
   .made-discription {
     flex-direction: column;
   }
-
-
-
-
-
-
-
-
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -536,7 +607,7 @@ body {
     justify-content: center;
   }
 
-  .made-list{
+  .made-list {
     max-width: 1050px;
     gap: 30px;
     font-size: 16px;
@@ -545,6 +616,4 @@ body {
   .made-item {
     max-width: 288px;
   }
-
-
 }
