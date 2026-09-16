@@ -15,7 +15,7 @@
   <body>
     <main>
       <section class="hero">
-        <div class="container">
+        <div class="container hero-container">
           <div class="hero_left_wrap">
             <h1 class="hero_title">
               ice cream made with
@@ -41,7 +41,7 @@
                 </p>
 
                 <a href="#products" class="hero_arrow_link">
-                  <svg class="hero_arrow_icon" width="20" height="20"></svg>
+                  <img class="hero_arrow_link" src="./img/arrow.png" alt="arrow">
                 </a>
               </div>
             </div>
@@ -53,7 +53,7 @@
               alt="ice cream foto"
             />
           </div>
-
+          <div class="hero-right">
           <ul class="hero_stats_list">
             <li class="hero_stats_item">
               <span class="stats_number">16</span>
@@ -65,13 +65,14 @@
             </li>
           </ul>
 
-          <div class="hero_girl_wrap">
+         
+          
             <img
               class="img_hero_girl"
-              src="./img/hero_girl.png"
+              src="./img/girl.png"
               alt="girl with ice cream"
             />
-          </div>
+             </div>
         </div>
       </section>
       <section class="natural_products">
@@ -182,7 +183,9 @@
         </div>
       </section>
       <section class="section-places">
-        <div class="place">
+      <div class="container">
+        <ul class="place-list">
+        <li class="place">
           <div>
             <h4 class="cafe-place">CAFE</h4>
             <div>
@@ -204,12 +207,12 @@
               <p class="contacts">noreply@envato.com</p>
             </div>
           </div>
-        </div>
+        </li>
 
 
-        <div class="place">
+        <li class="place">
           <div>
-            <h4 class="cafe-place foodtruck">FOODTRUCK</h4>
+            <h4 class="cafe-place foodtruck">FOOD TRUCK</h4>
             <div>
               <h5 class="city-place">Los Angeles</h5>
               <p class="about-place">
@@ -229,9 +232,9 @@
               <p class="contacts">noreply@envato.com</p>
             </div>
           </div>
-        </div>
+        </li>
 
-        <div class="place">
+        <li class="place">
           <div>
             <h4 class="cafe-place">CAFE</h4>
             <div>
@@ -253,7 +256,9 @@
               <p class="contacts">noreply@envato.com</p>
             </div>
           </div>
-        </div>
+        </li>
+        </ul>
+      </div>
       </section>
     </main>
   </body>
