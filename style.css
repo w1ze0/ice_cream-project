@@ -12,6 +12,10 @@ body {
   line-height: 1.2;
 }
 
+footer {
+  margin-top: 113px;
+}
+
 .hero {
   background-color: #ffb8ca;
   padding-top: 193px;
@@ -362,7 +366,7 @@ body {
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0%;
-  color: #907E82;
+  color: #907e82;
 }
 
 .num-phone {
@@ -370,7 +374,7 @@ body {
 }
 
 .foodtruck {
-  background-color: #C2E297;
+  background-color: #c2e297;
 }
 
 .place {
@@ -384,16 +388,100 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
 
+.location {
+  width: 165px;
+  padding: 15px;
+  opacity: 1;
+  background-color: #d41342;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 22px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
 
+.location-second {
+  color: #d41443;
+  background-color: #fff;
+}
 
+.container-location {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 54px;
+}
 
+.footer-information {
+  max-width: 210px;
+  opacity: 1;
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #ffa5ba;
+}
 
+.passion {
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+  color: #d41443;
+  margin-top: 17px;
+}
+
+.feel-contact {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 186%;
+  letter-spacing: 0%;
+  text-align: right;
+}
+
+.num-phone-footer {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 186%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #d31342;
+}
+
+.footer-container-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 46px;
+}
+
+.subinfo {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 152%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #907E82;
+  margin-top: 22px;
+}
 
 @media screen and (min-width: 768px) {
-
   .hero_arrow_link {
     display: block;
     margin-top: 7px;
@@ -435,7 +523,7 @@ body {
   .hero_stats_list {
     display: flex;
     flex-direction: column;
-    gap: 15px; 
+    gap: 15px;
   }
 
   .hero_stats_item {
@@ -557,18 +645,25 @@ body {
     padding: 50px 30px;
   }
 
+  .container-location {
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 81px;
+  }
 
-  
+  .num-phone-footer {
+    margin-bottom: 175px;
+  }
 
+  .passion {
+    font-size: 48px;
+  }
+
+  .location {
+    font-size: 26px;
+  }
 }
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 1200px) {
   .hero {
@@ -665,12 +760,17 @@ body {
     max-width: 288px;
   }
 
-  .place, .city-place, .about-place, .days, .hours-date, .contacts {
+  .place,
+  .city-place,
+  .about-place,
+  .days,
+  .hours-date,
+  .contacts {
     font-size: 16px;
     line-height: 1.83;
   }
 
-  .img_hero_girl {
-    
+  .container-location {
+    margin-top: 86px;
   }
 }
