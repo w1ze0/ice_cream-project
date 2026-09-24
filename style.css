@@ -25,7 +25,7 @@ body {
 }
 
 footer {
-  margin-top: 113px;
+  background: #FFF5F6;
 }
 
 .container-header {
@@ -584,7 +584,7 @@ footer {
 
 .social {
   display: block;
-  border-color: #FEA5BB;
+  background-color: #FEA5BB;
   border-radius: 50%;
   padding: 6px;
   width: 32px;
