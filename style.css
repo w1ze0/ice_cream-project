@@ -11,6 +11,8 @@
   overflow: hidden;
 }
 
+
+
 a {
   text-decoration: none;
 }
@@ -26,6 +28,13 @@ body {
 
 footer {
   background: #FFF5F6;
+  padding-top: 165px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 320px;
 }
 
 .container-header {
@@ -116,12 +125,7 @@ footer {
   position: relative;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 20px;
-  width: 320px;
-  outline: 1px solid #b00f35;
-}
+
 
 .logo {
   display: block;
@@ -584,7 +588,7 @@ footer {
 
 .social {
   display: block;
-  background-color: #FEA5BB;
+  background: #FEA5BB;
   border-radius: 50%;
   padding: 6px;
   width: 32px;
@@ -601,10 +605,14 @@ footer {
 .footer-sm-list {
   display: flex;
   gap: 30px;
-
+  justify-content: end;
 
 }
 
+
+.footer-container-information {
+  display: inline-block;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -974,5 +982,9 @@ footer {
 
   .places-buttons_wrap {
     margin-top: 86px;
+  }
+
+  .num-phone-footer {
+    margin-bottom: 98px;
   }
 }
